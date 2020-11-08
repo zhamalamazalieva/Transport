@@ -24,6 +24,9 @@ ul li{
 .col-6{
     width: 50%;
 }
+.col-3{
+    width: 25%;
+}
 .btn{
     font-size: 16px;
     font-style: normal;
@@ -40,4 +43,19 @@ ul li{
 .btn:hover{
     background-color: transparent;
     border: 3px solid #C8A35F;
+}
+.horizontal__line{
+    width: 90px;
+    height: 6px;
+    background-color:#C8A35F;
+}
+.title--h2{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
 }

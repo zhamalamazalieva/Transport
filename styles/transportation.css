@@ -1,23 +1,10 @@
 /*transportation left site
 ===================================*/
-.transportation__line{
-    width: 90px;
-    height: 6px;
-    background-color:#C8A35F;
-}
 .transportation__row{
     padding: 120px 0;
     align-items: center;
 }
 .transportation__title{
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.05em;
-    text-align: left;
-    color: white;
-    text-transform: uppercase;
     margin: 40px 0 30px 0;
     width: 70%;
 }
