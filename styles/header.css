@@ -1,0 +1,97 @@
+/*header__top
+=====================================*/
+.header__top{
+    background-color:rgb( 200,163,95);
+    padding: 15px 0;
+}
+.header__top .header__row{
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+}
+.header__top .header__item, .list__link{
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+
+/*header__bottom
+====================================*/
+.header__bottom{
+    padding: 27px 0;
+}
+.header__bottom .header__row{
+    justify-content: space-between;
+    align-items: center
+}
+.header__nav{
+}
+.header__bottom .header__item:first-child{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-right: 30px;
+}
+.header__line{
+    height:46px;
+    width: 1px;
+    background-color: white;
+    margin-right: 30px;
+}
+.header__location{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.location__icon{
+    width: 25px;
+    height: 25px;
+    fill:#C8A35F;
+    margin-right: 13px;
+}
+.office{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    align-self: center;
+}
+.office:hover{
+    color: #C8A35F;
+    font-size: 16px;
+}
+
+.nav__menu{
+    display: flex;
+}
+.nav__link{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 30px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.nav__link:hover{
+    font-size: 16px;
+    color:#C8A35F;
+
+}
