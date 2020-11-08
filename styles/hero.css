@@ -1,0 +1,36 @@
+.hero{
+    background-image:url('../img/jpg/truck-img.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+.hero__content{
+    border: 2px solid #C8A35F;
+    padding: 35px 70px;
+    max-width: 920px;
+}
+.hero__title{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.hero__subtitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    width: 90%;
+    margin: 0 auto;
+}
