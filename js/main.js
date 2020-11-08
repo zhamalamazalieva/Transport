@@ -1,7 +1,6 @@
-$('.slider-container').slick({
-	dots: true,
-	infinite: true,
-	speed: 300,
-	slidesToShow: 1,
-	adaptiveHeight: true
-  })
+$('.transportation__slider').slick({
+	arrows: true,
+	prevArrow:'.arrow__left',
+	nextArrow:'.arrow__right'
+
+})
