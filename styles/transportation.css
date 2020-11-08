@@ -1,0 +1,33 @@
+.transportation__line{
+    width: 90px;
+    height: 6px;
+    background-color:#C8A35F;
+}
+.transportation__row{
+    padding: 120px 0;
+}
+.transportation__title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    margin: 40px 0 30px 0;
+    width: 80%;
+}
+.transportation__subtitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 50px;
+}
+.transportation__button{
+    padding: 18px 48px;
+}
