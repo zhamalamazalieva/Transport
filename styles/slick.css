@@ -117,3 +117,36 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/* .slick-arrow{
+    position: absolute;
+    z-index: 20;
+    font-size: 0;
+    fill:white;
+    width: 100px;
+    height: 20px;
+    background:transparent;
+}
+
+.slick-arrow.slick-prev{
+    top: 0;
+    right: 0;
+    background-image: url('../img/svg/left-arrow.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    fill:white;
+ 
+  
+}
+
+.slick-arrow.slick-next{
+    bottom: 0;
+    right: 0;
+    background-image: url(../img/svg/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.right-arrow{
+
+} */

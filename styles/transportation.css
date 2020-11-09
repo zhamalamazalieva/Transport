@@ -49,8 +49,15 @@
 } 
 /*before and after
 ==================================*/
+
 .transportation{
     position: relative;
+}
+.trach-img{
+    max-width: 445px;
+}
+.after{
+    justify-self: flex-start;
 }
 .before::before {
     content: '';
@@ -74,17 +81,31 @@
   }
 /*transportation__slider
 ==================================*/
-
- /* .transportation{
-     position: relative;
+.transportation{
+    position: relative;
 }
+
  .transportation .prev__arrow{
     position: absolute;
-    bottom: 100px;
-    right: 100px;
+    bottom:120px;
+    right: 21%;
 }
 .transportation .next__arrow{
     position: absolute;
-    right:0;
-    top:100px;
-} */
+    right:17%;
+    top:120px;
+} 
+.transportation  .slick-list{
+    width: 75%;
+}
+.next__arrow::before{
+    content:'СЛЕД';
+    position: absolute;
+    color:#C8A35F;
+}
+ .prev__arrow::before{
+    content:'НАЗАД';
+    position: absolute;
+    color:#C8A35F;
+    right: 0;
+} 
