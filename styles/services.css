@@ -53,3 +53,15 @@
 .services__item:hover .transport__icon{
     fill:black;
 }
+
+/*MEDIA
+=====================================================*/
+@media screen and (max-width:1024px){
+    .services__item{
+        margin-bottom: 20px;
+    }
+    .services__row{
+        padding:0;
+        margin-top:50px ;
+    }
+}

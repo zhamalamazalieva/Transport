@@ -78,12 +78,10 @@ ul li{
     .container{
         padding: 0 25px;
     }
-    .col-6{
+    .col-6, .col-5, .col-7, .col-3, .col-4{
         width: 100%;
     }
-    .col-3{
-        width: 100%;
-    }
+   
     .title--h2{
         font-size: 34px;
     }

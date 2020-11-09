@@ -6,9 +6,6 @@
     max-width: 410px;
     max-height: 482px;
     background-color: #393F47;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     z-index:1;
     top: 50%;
     right: 50%;
@@ -77,4 +74,19 @@
     overflow: hidden;
     background-position: center;
     background-size: cover;
+}
+
+/*MEDIA
+===========================================*/
+@media screen and (max-width:1024px){
+    .about__row{
+        margin:100px 0 0 0;
+    }
+    .about__description{
+        margin-bottom: 50px;
+    }
+    .about__statistic{
+        margin-bottom: 100px;
+    }
+
 }
