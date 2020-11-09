@@ -105,9 +105,22 @@
 
 /*MEDIA
 ===========================================*/
-.header__nav{
-    display: none;
-}
-.header__item:last-child{
-    display: none;
+@media screen and (max-width:1024px){
+    .office{
+        font-size: 12px;
+    }
+    .location__icon{
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__item:last-child{
+        display: none;
+    }
+    .header__line{
+        margin-right: 20px;
+    }
 }
