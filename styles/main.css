@@ -71,3 +71,17 @@ ul li{
     color: white;
     text-transform: uppercase;
 }
+
+/*MEDIA
+====================================================*/
+@media screen and (max-width:1024px){
+    .container{
+        padding: 0 25px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .title--h2{
+        font-size: 34px;
+    }
+}

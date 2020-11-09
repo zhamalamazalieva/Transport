@@ -110,3 +110,37 @@
     color:#C8A35F;
     right: 0;
 } 
+
+/*MEDIA
+======================================*/
+@media screen and (max-width:1024px){
+    .before::before {
+    width: 0%;
+  }
+  .after::after{
+      width: 0;
+  }
+  .transportation__subtitle{
+      margin-bottom: 30px;
+      width: 100%;
+  }
+  .transportation__item{
+      margin-bottom: 50px;
+  }
+  .transportation  .slick-list{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .transportation:last-child{
+      position: relative;
+  }
+  .transportation .prev__arrow{
+    bottom:120px;
+    right: 45%;
+}
+.transportation .next__arrow{
+    right: -15%;
+    bottom: -453px;
+} 
+}

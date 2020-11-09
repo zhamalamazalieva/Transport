@@ -102,3 +102,12 @@
     color:#C8A35F;
 
 }
+
+/*MEDIA
+===========================================*/
+.header__nav{
+    display: none;
+}
+.header__item:last-child{
+    display: none;
+}
