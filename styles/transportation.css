@@ -55,11 +55,11 @@
 .before::before {
     content: '';
     position: absolute;
-    right:0;
+    left:0;
     top: 0;
-    width: 100%;
+    width: 39%;
     height: 100%;
-    background-color: #d16703;
+    background-color: #494b4e;
     z-index: -1;
   }
   .after::after {
@@ -67,9 +67,9 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 50%;
+    width: 39%;
     height: 100%;
-    background-color: #f4f4f4;
+    background-color: #494b4e;;
     z-index: -1;
   }
 /*transportation__slider
