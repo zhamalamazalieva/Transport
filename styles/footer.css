@@ -42,3 +42,30 @@
 .number--first{
     margin-bottom: 10px;
 }
+
+
+/*MEDIA
+===========================================*/
+@media screen and (max-width:1024px){
+    .footer__item{
+        align-items: flex-start;
+    }
+    .footer__item--left, .footer__item--right{
+        flex-direction: column;
+        margin-bottom: 30px;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .footer__logo{
+        margin-bottom: 20px;
+    }
+    .footer__number{
+        margin-bottom: 20px;
+    }
+    .developer{
+        align-self: flex-start;
+    }
+    .footer__row{
+        padding: 30px 0 0;
+    }
+}
