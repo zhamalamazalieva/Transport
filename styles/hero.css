@@ -11,6 +11,7 @@
     border: 2px solid #C8A35F;
     padding: 35px 70px;
     max-width: 920px;
+    margin: 0 auto;
 }
 .hero__title{
     font-size: 64px;
